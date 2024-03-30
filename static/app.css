@@ -1,0 +1,151 @@
+.icons a{
+  display:inline-block;
+  color: white !important;
+  padding: 7px 10px;
+  font-size:12px;
+  border-radius: 5px;
+  margin-top:5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.containter-to-do{
+    width: 60vw;
+    padding: 1vw 2vw;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+}
+
+.col-descricao{
+    min-width: 23vw;
+    max-width: 23vw;
+    word-wrap: break-word;
+}
+
+.table-responsive{
+    min-height: 200px
+    max-height: 200px
+}
+
+td{
+    vertical-align: middle;
+}
+
+td{
+    padding:11px !important;
+}
+
+.input-descricao{
+    width:82%;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    padding: 10px 9px;
+    border-left:none;
+    border-right:none;
+}
+
+.input-cadastrar{
+    width:15%;
+    background: #00B74A;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.status{
+    text-align:center;
+    color:white;
+    padding: 7px 4px;
+    border-radius:5px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .containter-to-do{
+    width: 90vw;
+  }
+
+  .input-descricao{
+    width:65%;
+  }
+
+  .input-cadastrar{
+    width:30%;
+  }
+
+  .table-responsive{
+    min-height: 100px
+    max-height: 100px
+   }
+
+}
+
+.paginas a{
+    padding: 5px 10px;
+    display:inline-block;
+    background: #bcbcbc;
+    font-size:1em;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.opcoes-label {
+  display: block;
+  margin-bottom: 2px;
+  color: #0f0f0f;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.opcoes-links {
+  display: flex;
+  gap: 10px;
+}
+
+.opcoes-links a {
+  text-decoration: none;
+  color: #404040;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.1s;
+  background: #ccc;
+  border: 1px solid #ccc;
+}
+
+.opcoes-links .status-todos{
+  border-color:  #bcbcbc;
+  background: transparent;
+}
+
+.opcoes-links .status-finalizado{
+  border-color:  #00B74A;
+  background: transparent;
+}
+.opcoes-links .status-em-andamento{
+  background: transparent;
+  border-color: #FFA900;
+}
+
+.opcoes-links .status-pendente{
+  background: transparent;
+  border-color: #691AE2;
+}
+
+.opcoes-links .status-pendente:hover, .opcoes-links .status-pendente.selected{
+  background: #691AE2;
+  color: #fff;
+}
+
+.opcoes-links .status-todos:hover, .opcoes-links .status-todos.selected{
+  background: #bcbcbc;
+  color: #fff;
+}
+.opcoes-links .status-finalizado:hover, .opcoes-links .status-finalizado.selected{
+  background: #00B74A;
+  color: #fff;
+}
+.opcoes-links .status-em-andamento:hover, .opcoes-links .status-em-andamento.selected{
+  background: #FFA900;
+  color: #fff;
+}

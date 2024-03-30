@@ -1,0 +1,9 @@
+# Pastas específicas do IDE
+.idea/
+
+# Ambiente virtual Python
+.venv/
+
+# Bytecode compilado do Python
+__pycache__/
+
