@@ -15,4 +15,4 @@ Etapas para iniciar:
 
 Nela conseguimos acrescentar tarefas, as mesmas vem com o status padrão "Pendente", caso eu queira iniciar um tarefa é só eu clicar no botão de play. 
 
-Se caso eu quiser finalizar a tarefa, após apertar o play eu aperto o botão de check.
+Se caso eu quiser finalizar a tarefa, após apertar o play, será apenas apertar o botão de check.
