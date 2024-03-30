@@ -3,7 +3,7 @@
 Crud completo com consulta, inserção, atualização, e exclusão de dados.
 Feito paginações e filtros por status para melhor experiencia.
 
-Etapas para iniciar:
+## Etapas para iniciar:
 
 1. Instalar as dependencias
 2. Instalar o MySQL na máquina e ajustar as credencias no arquivo prepara_banco.py
